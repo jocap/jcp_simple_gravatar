@@ -1,0 +1,12 @@
+h3. History
+
+2010-08-24 1.0
+  C: release of the plugin -- yay!
+	
+Legend:
+
+* B: Bugfix
+* C: Code
+* D: Documentation
+* F: Feature
+* I: Internationalization

@@ -1,0 +1,51 @@
+h1. jcp_simple_gravatar
+
+Use @<txp:jcp_simple_gravatar />@ in your templates. It will return the gravatar URL.
+
+There's four attributes, and all are optional;
+
+* @email@ -- custom email address for gravatar (if not specified, the plugin uses the comment author's email)
+* @user@ -- get user's gravatar (input: the user's username)
+* @default@ -- default avatar, if no gravatar was found
+* @default_local@ -- default avatar, local file like @images/9.png@ that will become @http://yoursite.com/images/9.png@ (your site have to be live and visible to Gravatar)
+* @size@ -- the image size, in pixels (default: 80)
+* @format@ -- the file format, like .jpg or .png, without the dot (default: jpg)
+* @where@ -- is the gravatar in an article or in a comment? This is totally optional, @jcp_simple_gravatar@ can pick the right one for you.
+
+h2. Example use
+
+In the comments form:
+
+pre. <img src="<txp:jcp_simple_gravatar default="http://thesite.net/images/avatar.jpg" size="50" format="png" />" width="50" height="50" />
+
+May return:
+
+pre. <img src="http://gravatar.com/avatar/4fdce145bab6d27d69e34403f99fd11c.png?s=50&d=http%3A%2F%2Fthesite.net%2Fimages%2Favatar.jpg" width="50" height="50" />
+
+In an article:
+
+pre. Author: <txp:author /><br />
+<img src="<txp:jcp_simple_gravatar default_local="/images/6.png" size="60" />" />
+
+May return:
+
+pre. Author: Andrew Dorsey<br />
+<img src="http://gravatar.com/avatar/e0a2988a7d97b4def8426cbead7b1a9b.png?s=50&d=http%3A%2F%2Fmysite.com%2Fimages%2F6t.png" width="50" height="50" />
+
+Get user's avatar:
+
+pre. About Andrew:<br />
+<img src="<txp:jcp_simple_gravatar user="andrew" />"
+
+May return:
+
+pre. About Andrew:<br />
+<img src="http://gravatar.com/avatar/e0a2988a7d97b4def8426cbead7b1a9b.png?s=80" />
+
+h2. Information
+
+@jcp_simple_gravatar@ for Textpattern is based on the "glx_gravatar":http://code.google.com/p/textpattern-plugins/wiki/GlxGravatar plugin, and is licensed under the "GNU General Public License v2":http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+
+h3. Bugs, issues or any other problems?
+
+Please open a ticket at "http://dev.jocap.se/txp/jcp_simple_gravatar":http://dev.jocap.se/txp/jcp_simple_gravatar.
