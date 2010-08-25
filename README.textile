@@ -48,4 +48,4 @@ h2. Information
 
 h3. Bugs, issues or any other problems?
 
-Please open a ticket at "http://dev.jocap.se/txp/jcp_simple_gravatar":http://dev.jocap.se/txp/jcp_simple_gravatar.
+Please email me at jocapriconne at gmail.com.
