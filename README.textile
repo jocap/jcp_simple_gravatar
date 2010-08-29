@@ -30,7 +30,7 @@ pre. Author: <txp:author /><br />
 May return:
 
 pre. Author: Andrew Dorsey<br />
-<img src="http://gravatar.com/avatar/e0a2988a7d97b4def8426cbead7b1a9b.png?s=50&d=http%3A%2F%2Fmysite.com%2Fimages%2F6t.png" width="50" height="50" />
+<img src="http://gravatar.com/avatar/e0a2988a7d97b4def8426cbead7b1a9b.png?s=60&d=http%3A%2F%2Fmysite.com%2Fimages%2F6t.png" width="60" height="60" />
 
 Get user's avatar:
 
@@ -44,7 +44,7 @@ pre. About Andrew:<br />
 
 h2. Information
 
-@jcp_simple_gravatar@ for Textpattern is based on the "glx_gravatar":http://code.google.com/p/textpattern-plugins/wiki/GlxGravatar plugin, and is licensed under the "GNU General Public License v2":http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+@jcp_simple_gravatar@ for Textpattern is based on the "glx_gravatar":http://code.google.com/p/textpattern-plugins/wiki/GlxGravatar plugin by Patrick Kollitsch, and is licensed under the "GNU General Public License v2":http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
 
 h3. Bugs, issues or any other problems?
 
