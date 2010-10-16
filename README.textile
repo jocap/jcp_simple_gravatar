@@ -12,6 +12,10 @@ There's four attributes, and all are optional;
 * @format@ -- the file format, like .jpg or .png, without the dot (default: jpg)
 * @where@ -- is the gravatar in an article or in a comment? This is totally optional, @jcp_simple_gravatar@ can pick the right one for you.
 
+h2. Installation
+
+"http://github.com/jocap/jcp_simple_gravatar/blob/master/plugins/jcp_simple_gravatar/current/jcp_simple_gravatar.txt":http://github.com/jocap/jcp_simple_gravatar/blob/master/plugins/jcp_simple_gravatar/current/jcp_simple_gravatar.txt
+
 h2. Example use
 
 In the comments form:
