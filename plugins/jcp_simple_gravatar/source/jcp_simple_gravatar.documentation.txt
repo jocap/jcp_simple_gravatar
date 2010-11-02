@@ -1,22 +1,36 @@
-h1. jcp_simple_gravatar
+h1(#jcp_simple_gravatar). jcp_simple_gravatar
+
+*Simple Gravatar* — @jcp_simple_gravatar@ — is a Textpattern plugin that simplifies the use of Gravatar avatars on your Textpattern site.
+
+"Documentation":#documentation:
+# "Installation":#installation
+# "How to use":#howtouse
+# "Example use":#examples
+# "Information":#information
+# "Source":#source
+# "Bugs, issues or any other problems?":#bugs
+
+h2(#documentation). Documentation:
+
+h3(#installation). Installation
+
+"How to install Simple Gravatar.":http://github.com/jocap/jcp_simple_gravatar/raw/master/plugins/jcp_simple_gravatar/current/jcp_simple_gravatar.txt
+
+h3(#howtouse). How to use
 
 Use @<txp:jcp_simple_gravatar />@ in your templates. It will return the gravatar URL.
 
-There's four attributes, and all are optional;
+There are four attributes, and all are optional;
 
-* @email@ -- custom email address for gravatar (if not specified, the plugin uses the comment author's email)
-* @user@ -- get user's gravatar (input: the user's username)
-* @default@ -- default avatar, if no gravatar was found
-* @default_local@ -- default avatar, local file like @images/9.png@ that will become @http://yoursite.com/images/9.png@ (your site have to be live and visible to Gravatar)
-* @size@ -- the image size, in pixels (default: 80)
-* @format@ -- the file format, like .jpg or .png, without the dot (default: jpg)
-* @where@ -- is the gravatar in an article or in a comment? This is totally optional, @jcp_simple_gravatar@ can pick the right one for you.
+@email@ — custom email address for gravatar (if not specified, the plugin uses the comment author’s email)
+@user@ — get user’s gravatar (input: the user’s username)
+@default@ — default avatar, if no gravatar was found
+@default_local@ — default avatar. A local file, like @images/9.png@, that becomes @http://yoursite.com/images/9.png@ (good for development)
+@size@ — the image size, in pixels (default: 80)
+@format@ — the file format, like .jpg or .png, without the dot (default: jpg)
+@where@ — is the gravatar in an article or in a comment? This is completely optional, *Simple Gravatar* can pick the right one for you.
 
-h2. Installation
-
-"http://github.com/jocap/jcp_simple_gravatar/blob/master/plugins/jcp_simple_gravatar/current/jcp_simple_gravatar.txt":http://github.com/jocap/jcp_simple_gravatar/blob/master/plugins/jcp_simple_gravatar/current/jcp_simple_gravatar.txt
-
-h2. Example use
+h3(#examples). Example use
 
 In the comments form:
 
@@ -46,10 +60,14 @@ May return:
 pre. About Andrew:<br />
 <img src="http://gravatar.com/avatar/e0a2988a7d97b4def8426cbead7b1a9b.png?s=80" />
 
-h2. Information
+h3(#information). Information
 
-@jcp_simple_gravatar@ for Textpattern is based on the "glx_gravatar":http://code.google.com/p/textpattern-plugins/wiki/GlxGravatar plugin by Patrick Kollitsch, and is licensed under the "GNU General Public License v2":http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+*Simple Gravatar* for Textpattern is based on the "glx_gravatar":http://code.google.com/p/textpattern-plugins/wiki/GlxGravatar plugin by Patrick Kollitsch, and is licensed under the "GNU General Public License v2":http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
 
-h3. Bugs, issues or any other problems?
+h4(#source). Source
+
+"Source.":http://github.com/jocap/jcp_simple_gravatar
+
+h3(#bugs). Bugs, issues or any other problems?
 
 Please email me at jocapriconne at gmail.com.
