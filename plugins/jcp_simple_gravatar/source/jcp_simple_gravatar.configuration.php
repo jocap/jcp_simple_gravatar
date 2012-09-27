@@ -5,5 +5,5 @@ $plugin['description'] = 'Simple Gravatar avatars for Textpattern.';
 $plugin['type']        = 0;
 $plugin['order']       = 5;
 $plugin['author']       = 'John Ankarström';
-$plugin['author_uri']  = 'http://jocap.se';
+$plugin['author_uri']  = 'http://github.com/jocap';
 ?>
