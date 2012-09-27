@@ -2,7 +2,7 @@
 # Plugin-Version:   1.0
 # Description:      Simple Gravatar avatars for Textpattern.
 # Author:           John Ankarström
-# More Info at:     http://jocap.se
+# More Info at:     http://github.com/jocap
 # Compiled at:      Tue, 24 Aug 2010 20:51:17 +0200
 
 # ......................................................................
