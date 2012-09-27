@@ -53,7 +53,7 @@ pre. Author: Andrew Dorsey<br />
 Get user's avatar:
 
 pre. About Andrew:<br />
-<img src="<txp:jcp_simple_gravatar user="andrew" />"
+<img src="<txp:jcp_simple_gravatar user="andrew" />" />
 
 May return:
 
